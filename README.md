@@ -1,5 +1,7 @@
 # CSE455-FinalProject
 
+**Author:** Jolie Ip
+
 # Deepfake Detection 
 
 This repository contains a deepfake detection model built using the ResNet50 pretrained model. The motivation behind developing this model was the increasing prevalence of deepfake technology, which poses a significant threat to various aspects of society, including misinformation, privacy violations, and potential harm to individuals.
