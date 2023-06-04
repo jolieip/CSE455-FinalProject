@@ -26,26 +26,10 @@ In developing this deepfake detection model, I built upon various resources and 
 
 I would like to acknowledge the authors of the following resources:
 
-TensorFlow documentation: https://www.tensorflow.org/
-Keras library: https://keras.io/
+- TensorFlow documentation: https://www.tensorflow.org/
+- Keras library: https://keras.io/
+
 The remaining code, including model training, evaluation, and additional custom modifications, was developed by me for this project.
-
-## Repository Structure
-
-- `data/`: Placeholder directory for storing the dataset (not included in this repository).
-- `notebooks/`: Contains the Jupyter notebook used for model development.
-- `models/`: Saved model checkpoints and trained weights.
-- `src/`: Source code files for data preprocessing, model architecture, and evaluation.
-
-## Getting Started
-
-To get started with this deepfake detection model, follow these steps:
-
-1. Download the "140k Real and Fake Faces" dataset from Kaggle (link provided above).
-2. Place the dataset files in the `data/` directory.
-3. Open the Jupyter notebook `deepfake_detection.ipynb` located in the `notebooks/` directory.
-4. Follow the instructions in the notebook to preprocess the data, train the model, and evaluate its performance.
-5. Experiment with different hyperparameters, regularization techniques, or model architectures to enhance the model's accuracy and generalization.
 
 ## Future Work
 
@@ -54,4 +38,12 @@ This project serves as a starting point for deepfake detection. There are severa
 - Investigating other pretrained models such as VGG and XCeption to compare their performance against ResNet50.
 - Implementing regularization techniques, such as dropout or batch normalization, to reduce overfitting and improve testing accuracy.
 - Exploring advanced deep learning architectures, such as attention mechanisms or adversarial training, to enhance the model's ability to detect sophisticated deepfakes.
+
+## Video Demo
+
+
+
+https://github.com/jolieip/CSE455-FinalProject/assets/61493372/e864113b-583f-4f4c-924b-8fbbd1dffa87
+
+
 
