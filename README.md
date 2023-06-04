@@ -12,13 +12,13 @@ The decision to choose the ResNet50 pretrained model was based on extensive rese
 
 ## Challenges and Struggles
 
-During the development process, several challenges were encountered. One significant struggle was the time-consuming process of loading data into Google Colab. Mounting the data each time the notebook was reloaded made the workflow infeasible. To overcome this challenge, we decided to build our model using Kaggle notebooks. We leveraged the "140k Real and Fake Faces" dataset from Kaggle (https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces) to train and evaluate the model. This dataset provided a diverse and comprehensive set of images to improve the model's accuracy.
+During the development process, several challenges were encountered. One significant struggle was the time-consuming process of loading data into Google Colab. Mounting the data each time the notebook was reloaded made the workflow infeasible. To overcome this challenge, I decided to build the model using Kaggle notebooks. We leveraged the "140k Real and Fake Faces" dataset from Kaggle (https://www.kaggle.com/datasets/xhlulu/140k-real-and-fake-faces) to train and evaluate the model. This dataset provided a diverse and comprehensive set of images to improve the model's accuracy.
 
-Initially, we attempted to train the model using a custom CNN architecture. However, this approach resulted in low training accuracy, reaching only 50%. Recognizing the need for a more powerful model, we turned to pretrained models. By using the ResNet50 pretrained model, we observed a significant improvement in training accuracy. However, the testing accuracy was relatively low, indicating the possibility of overfitting. Further optimization and fine-tuning of the model are required to address this issue.
+Initially, I attempted to train the model using a custom CNN architecture. However, this approach resulted in low training accuracy, reaching only 50%. Recognizing the need for a more powerful model, I turned to pretrained models. By using the ResNet50 pretrained model, I observed a significant improvement in training accuracy. However, the testing accuracy was relatively low, indicating the possibility of overfitting. Further optimization and fine-tuning of the model are required to address this issue.
 
 ## Techniques and Data Preprocessing
 
-To preprocess the images and prepare them for the CNN, we utilized TensorFlow's ImageDataGenerator. This powerful tool automates various image preprocessing techniques, including rescaling, data augmentation, and normalization. By utilizing this approach, we were able to streamline the data preparation process and make the dataset ready for training the deepfake detection model. This significantly reduced the manual effort required for cleaning and preprocessing the data.
+To preprocess the images and prepare them for the CNN, I utilized TensorFlow's ImageDataGenerator. This powerful tool automates various image preprocessing techniques, including rescaling, data augmentation, and normalization. By utilizing this approach, I was able to streamline the data preparation process and make the dataset ready for training the deepfake detection model. This significantly reduced the manual effort required for cleaning and preprocessing the data.
 
 ## Code Attribution
 
@@ -41,7 +41,7 @@ This project serves as a starting point for deepfake detection. There are severa
 
 ## Video Demo
 
-
+https://github.com/jolieip/CSE455-FinalProject/assets/61493372/4aec9409-e634-4a07-925a-6a48705d2cd8 
 
 
 
