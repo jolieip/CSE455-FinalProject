@@ -20,6 +20,16 @@ Initially, we attempted to train the model using a custom CNN architecture. Howe
 
 To preprocess the images and prepare them for the CNN, we utilized TensorFlow's ImageDataGenerator. This powerful tool automates various image preprocessing techniques, including rescaling, data augmentation, and normalization. By utilizing this approach, we were able to streamline the data preparation process and make the dataset ready for training the deepfake detection model. This significantly reduced the manual effort required for cleaning and preprocessing the data.
 
+## Code Attribution
+
+In developing this deepfake detection model, I built upon various resources and code snippets. The code for loading and preprocessing the dataset using ImageDataGenerator was borrowed from the official TensorFlow documentation and adapted to suit the specific requirements of this project. Additionally, the implementation of the ResNet50 architecture was sourced from the Keras library, which provided a reliable and efficient implementation of the model.
+
+I would like to acknowledge the authors of the following resources:
+
+TensorFlow documentation: https://www.tensorflow.org/
+Keras library: https://keras.io/
+The remaining code, including model training, evaluation, and additional custom modifications, was developed by me for this project.
+
 ## Repository Structure
 
 - `data/`: Placeholder directory for storing the dataset (not included in this repository).
