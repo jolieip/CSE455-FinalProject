@@ -43,7 +43,11 @@ This project serves as a starting point for deepfake detection. There are severa
 
 
 
-https://github.com/jolieip/CSE455-FinalProject/assets/61493372/e864113b-583f-4f4c-924b-8fbbd1dffa87
+
+
+
+https://github.com/jolieip/CSE455-FinalProject/assets/61493372/4aec9409-e634-4a07-925a-6a48705d2cd8
+
 
 
 
