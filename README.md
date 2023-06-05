@@ -1,6 +1,6 @@
 # CSE455-FinalProject
 
-**Author:** Jolie Ip
+**Authors:** Jolie Ip, Abigail Batinga
 
 # Deepfake Detection 
 
@@ -43,7 +43,6 @@ This project serves as a starting point for deepfake detection. There are severa
 
 ## Video Demo
 
-https://github.com/jolieip/CSE455-FinalProject/assets/61493372/4aec9409-e634-4a07-925a-6a48705d2cd8 
 
 
 
